@@ -1,4 +1,4 @@
-package bai1;
+package baithuchanh;
 import java.util.Scanner;
 
 public class Lab1Bai1 {

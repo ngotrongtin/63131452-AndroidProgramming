@@ -1,4 +1,4 @@
-package bai1;
+package baithuchanh;
 import java.util.Scanner;
 public class Lab1Bai2 {
 
@@ -11,8 +11,10 @@ public class Lab1Bai2 {
 		int chieuRong = scanner.nextInt();
 		int chuVi = (chieuDai + chieuRong) * 2;
 		int dienTich = chieuDai * chieuRong;
-		System.out.printf("chu vi là : %d",chuVi);
-		System.out.printf("diện tích là : %d",dienTich);
+		int canhNhoNhat = Math.min(chieuDai, chieuRong);
+		System.out.printf("chu vi là : %d\n",chuVi);
+		System.out.printf("diện tích là : %d \n",dienTich);
+		System.out.printf("cạnh nhỏ nhất là : %d", canhNhoNhat);
 	}
 
 }
